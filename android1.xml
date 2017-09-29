@@ -1,0 +1,20 @@
+<LinearLayout
+xmlns:android=""
+android:orientation="vertical"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+                                    >
+<TextView
+android:text="hi i am tarun.  "
+android:textAppearance="?android:textAppearanceLarge"
+android:layout_width="wrap_content"                                    
+android:layout_height="wrap_content"
+/>
+<TextView
+android:text="how are you?  "
+android:background="@android:color/darker_gray"
+android:textAppearance="?android:textAppearanceLarge"
+android:layout_width="wrap_content"                                    
+android:layout_height="wrap_content"
+/>
+</LinearLayout>
