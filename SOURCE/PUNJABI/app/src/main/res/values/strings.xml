@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PUNJABI</string>
+    <string name="number_tag">Numbers</string>
+    <string name="family_tag">Family</string>
+    <string name="phrases_tag">Phrases</string>
+    <string name="colors_tag">Colors</string>
+    <string name="title_activity_numbers">Numbers</string>
+    <string name="Alphabets_tag">Alphabets</string>
+</resources>
