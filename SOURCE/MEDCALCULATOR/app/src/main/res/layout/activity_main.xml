@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.tarunpreet_singh.medcalculator.MainActivity">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="59dp"
+        android:ems="10"
+        android:hint="Enter amount"
+        android:inputType="number"
+        android:textColor="#FFD600"
+        android:textColorHint="#FFD600"
+        android:textColorLink="#FFD600"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/percent"
+        android:layout_alignBottom="@+id/percent"
+        android:layout_marginStart="24dp"
+        android:layout_toEndOf="@+id/percent"
+        android:background="@drawable/plus"
+        android:paddingBottom="10sp"
+        android:paddingRight="10sp"
+        android:text="+"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="71dp"
+        android:background="@drawable/percent"
+        android:paddingBottom="10sp"
+        android:paddingRight="10sp"
+        android:text="15%"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#FFD600"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/plus"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/percent"
+        android:paddingBottom="10dp"
+        android:paddingRight="10dp"
+        android:text="CLEAR ALL" />
+
+</RelativeLayout>
